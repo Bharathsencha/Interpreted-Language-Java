@@ -65,7 +65,16 @@ let pi = 3.14             # Float
 let is_active = true      # Boolean
 let items = [1, 2, 3]     # List
 ```
+### Comments
 
+Use `#` to write comments in Blang.  
+Any text following `#` on a line is treated as a comment and is ignored by the interpreter.
+
+```javascript
+# This is a comment
+let x = 10   # This is also a comment
+print(x)
+```
 ### Input and Type Casting
 
 The `input()` function returns a string. Use type casting functions for conversions:
