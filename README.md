@@ -58,7 +58,7 @@ make clean
 
 Variables are declared using the `let` keyword. Blang supports dynamic typing.
 
-```blang
+```javascript
 let name = "Bharath"      # String
 let age = 21              # Integer
 let pi = 3.14             # Float
@@ -70,7 +70,7 @@ let items = [1, 2, 3]     # List
 
 The `input()` function returns a string. Use type casting functions for conversions:
 
-```blang
+```javascript
 let val = input("Enter a number: ")
 let num = int(val)
 print("Type is:", typeof(num))
@@ -88,7 +88,7 @@ print("Length of name is:", len("Bharath"))
 
 #### If-Else Statement
 
-```blang
+```javascript
 if (age >= 18) {
     print("Adult")
 } else {
@@ -98,7 +98,7 @@ if (age >= 18) {
 
 #### While Loop
 
-```blang
+```javascript
 let i = 0
 while (i < 10) {
     i = i + 1
@@ -114,7 +114,7 @@ while (i < 10) {
 
 #### Switch Statement
 
-```blang
+```javascript
 let choice = int(input("1 or 2? "))
 switch (choice) {
     case 1:
@@ -132,7 +132,7 @@ switch (choice) {
 
 Create and modify lists using built-in functions:
 
-```blang
+```javascript
 let my_list = []
 append(my_list, "Apple")
 print(my_list)  # ["Apple"]
@@ -142,7 +142,7 @@ print(my_list)  # ["Apple"]
 
 Define functions using the `func` keyword:
 
-```blang
+```javascript
 func greet(n) {
     print("Hello", n)
 }
@@ -162,7 +162,7 @@ make clean    # Remove compiled class files
 
 ## Example Program
 
-```blang
+```javascript
 let name = input("Enter your name: ")
 let age = int(input("Enter your age: "))
 
