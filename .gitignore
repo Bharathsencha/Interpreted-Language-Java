@@ -1,0 +1,21 @@
+# Java Compiled class files
+*.class
+
+# Compiled output directory
+class/
+
+# Log files
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Optional: Text editor / IDE metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific temporary files
+*.tmp

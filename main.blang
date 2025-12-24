@@ -1,0 +1,5 @@
+func greet(n) {
+    print("Hello", n)
+}
+
+greet("User")
